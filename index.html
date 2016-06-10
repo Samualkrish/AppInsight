@@ -3,6 +3,9 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
+	<!-- jquery lib -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
@@ -14,4 +17,94 @@
 
 	<!-- jquery lib -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	<script src="js/app.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">VERITAS</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <!-- <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form> -->
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item</a></li>
+            <li><a href="">Nav item again</a></li>
+            
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-lg-10">
+          <h1 class="page-header">Dashboard</h1>
+
+          <div class="row placeholders">
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <div id="dash_one" class="tiles tile_one">
+              	<span id="icon_one" class="glyphicon glyphicon-heart icon"></span>
+              </div>
+              <h4 class="align_center">PERFORMANCE</h4>
+              <h5 class="text-muted align_center">Something else</h5>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <div id="dash_two" class="tiles  tile_two">
+              	<span id="icon_two" class="glyphicon glyphicon-signal icon"></span>
+              </div>
+              <h4 class="align_center">DISK USAGE</h4>
+              <h5 class="text-muted align_center">Something else</h5>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <div id="dash_three" class="tiles tile_three">
+              	<span id="icon_three" class="glyphicon glyphicon-list-alt icon"></span>
+              </div>
+              <h4 class="align_center">CONFIGURATION</h4>
+              <h5 class="text-muted align_center">Something else</h5>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <div id="dash_four" class="tiles tile_four">
+              	<span id="icon_four" class="glyphicon glyphicon-cog icon"></span>
+              </div>
+              <h4 class="align_center">SETTINGS</h4>
+              <h5 class="text-muted align_center">Something else</h5>
+            </div>
+          </div>
+
+          
+      </div>
+    </div>
+
+    
+  </body>
 </html>
